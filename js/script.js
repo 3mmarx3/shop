@@ -31,7 +31,7 @@
 
     var category_swiper = new Swiper(".category-carousel", {
       slidesPerView: 6,
-      spaceBetween: 5,
+      spaceBetween: 10,
       speed: 500,
       navigation: {
         nextEl: ".category-carousel-next",
@@ -55,7 +55,7 @@
 
     var brand_swiper = new Swiper(".brand-carousel", {
       slidesPerView: 4,
-      spaceBetween: 5,
+      spaceBetween: 10,
       speed: 500,
       navigation: {
         nextEl: ".brand-carousel-next",
@@ -79,7 +79,7 @@
 
     var products_swiper = new Swiper(".products-carousel", {
       slidesPerView: 5,
-      spaceBetween: 5,
+      spaceBetween: 10,
       speed: 500,
       navigation: {
         nextEl: ".products-carousel-next",
