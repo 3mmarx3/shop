@@ -241,7 +241,7 @@
 
           <div class="cart-totals bg-grey py-5">
             <h4 class="text-dark pb-4">Cart Total</h4>
-            <div class="total-price pb-5">
+            <div class="total-price ">
               <table cellspacing="0" class="table text-uppercase">
                 <tbody>
                   <tr class="d-flex align-items-center justify-content-between">
@@ -2985,52 +2985,6 @@ button.navbar-toggler {
 }
 
 
-@media screen and (max-width:767px) {
-
-  .card-detail.ps-3 {
-    display: none;
-}
-
-  .section-header.d-flex.justify-content-between {
-    display: block !important;
-}
-
-
-.banner-ad .banner-content .sale:before{
-  border-bottom: 1px solid  white;
-}
-.banner-ad .banner-content .sale:after{
-  color: white;
-}
-.row.banner-content.p-5 {
-    background: #00000085;
-}
-
-.categories.sale.mb-3.pb-3,h3.banner-title,h3.item-title ,.content-wrapper.col-md-7 a.d-flex.align-items-center.nav-link{
-    color: white !important;
-    font-family: sans-serif;
-}
-
-
-
-.product-grid.row.row-cols-sm-2.row-cols-md-3.row-cols-lg-4.row-cols-xl-5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-.product-item{
-  padding: 10px;
-  margin-bottom: 0;
-}
-.ptn_order{
-  padding: 0 !important;
-}
-
-.bg_img{
-  height: 25vh !important;
-}
-}
-
 .bg_img{
   background-size: cover;
   background-position: center center;
@@ -3075,6 +3029,55 @@ button.navbar-toggler {
   height: 45px;
   background-position: center center;
   background-size: contain;
+}
+
+@media screen and (max-width:767px) {
+  .offcanvas.offcanvas-end {
+  width: 100% !important;
+}
+
+  .card-detail.ps-3 {
+    display: none;
+}
+
+  .section-header.d-flex.justify-content-between {
+    display: block !important;
+}
+
+
+.banner-ad .banner-content .sale:before{
+  border-bottom: 1px solid  white;
+}
+.banner-ad .banner-content .sale:after{
+  color: white;
+}
+.row.banner-content.p-5 {
+    background: #00000085;
+}
+
+.categories.sale.mb-3.pb-3,h3.banner-title,h3.item-title ,.content-wrapper.col-md-7 a.d-flex.align-items-center.nav-link{
+    color: white !important;
+    font-family: sans-serif;
+}
+
+
+
+.product-grid.row.row-cols-sm-2.row-cols-md-3.row-cols-lg-4.row-cols-xl-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.product-item{
+  padding: 10px;
+  margin-bottom: 0;
+}
+.ptn_order{
+  padding: 0 !important;
+}
+
+.bg_img{
+  height: 25vh !important;
+}
 }
 
     </style>
