@@ -646,3 +646,8 @@ body {
   display: flex !important;
   align-items: center !important;
 }
+
+.offcanvas.offcanvas-end {
+  width: auto !important;
+}
+
