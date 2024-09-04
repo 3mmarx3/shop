@@ -45,17 +45,18 @@ let header = `
                       <div class="input-group product-qty w-50">
                         <span class="input-group-btn">
                           <button type="button" class="quantity-left-minus btn btn-light btn-number" data-type="minus">
-                            <svg width="16" height="16">
-                              <use xlink:href="#minus"></use>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+  <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+</svg>
                           </button>
                         </span>
                         <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="1">
                         <span class="input-group-btn">
                           <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
-                            <svg width="16" height="16">
-                              <use xlink:href="#plus"></use>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+</svg>  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+</svg>
                           </button>
                         </span>
                       </div>
@@ -95,17 +96,18 @@ let header = `
                       <div class="input-group product-qty w-50">
                         <span class="input-group-btn">
                           <button type="button" class="quantity-left-minus btn btn-light btn-number" data-type="minus">
-                            <svg width="16" height="16">
-                              <use xlink:href="#minus"></use>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+  <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+</svg>
                           </button>
                         </span>
                         <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="1">
                         <span class="input-group-btn">
                           <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
-                            <svg width="16" height="16">
-                              <use xlink:href="#plus"></use>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+</svg>  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+</svg>
                           </button>
                         </span>
                       </div>
