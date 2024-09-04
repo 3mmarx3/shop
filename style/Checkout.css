@@ -167,7 +167,7 @@ body {
   padding: 0;
 }
 .card-number-field input {
-  width: 3em;
+  width: 100%;
   height: 100%;
   padding: 0.5em 0;
   margin: 0 0.75em;
