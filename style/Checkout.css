@@ -174,7 +174,6 @@ body {
   border: none;
   color: #888888;
   background: transparent;
-  text-align: center;
   font-family: inherit;
   font-weight: 500;
 }
@@ -227,12 +226,11 @@ body {
   flex: 1 1;
   height: 100%;
   width: 100%;
-  text-align: center;
   border: none;
   border-radius: var(--radius-md);
   font-family: inherit;
-  font-weight: 800;
   font-size: 0.85em;
+  padding-left: 10px;
 }
 .input-container input:focus {
   background: #e3f2fd;
