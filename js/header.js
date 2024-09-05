@@ -28,7 +28,7 @@ let header = `
                     <td scope="row" class="py-4">
                       <div class="cart-info d-flex flex-wrap align-items-center mb-4">
                         <div class="col-lg-3">
-                          <div class="card-image" style="background-image: url(./images/1\ \(13\).jpg);">
+                          <div class="card-image" style="background-image: url(../images/img.jpg);">
 
                           </div>
                         </div>
@@ -81,7 +81,7 @@ let header = `
                     <td scope="row" class="py-4">
                       <div class="cart-info d-flex flex-wrap align-items-center">
                         <div class="col-lg-3">
-                          <div class="card-image" style="background-image: url(./images/1\ \(18\).jpg);">
+                          <div class="card-image" style="background-image: url(../images/img.jpg);">
 
                           </div>
                         </div>
