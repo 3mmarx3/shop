@@ -162,3 +162,19 @@ a.d-flex.align-items-center.nav-link {
     gap: 10px;
   }
 }
+
+/*  */
+
+.banner-content.p-5.add_link {
+  background: red;
+  height: 40vh;
+  border-radius: 10px;
+  margin: 10px 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offcanvas-body {
+  justify-content: center;
+}

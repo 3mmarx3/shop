@@ -159,7 +159,7 @@ let header = `
               <span class="text-body-secondary">$5</span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
+              <span>Total (EGP)</span>
               <strong>$20</strong>
             </li>
           </ul> -->
